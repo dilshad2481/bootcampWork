@@ -1,0 +1,13 @@
+package com.lwl.cj.day15;
+
+import java.util.function.Predicate;
+
+public class PlayerManager {
+	
+	public static void main(String[] args) {
+		PlayerService pservice = new PlayerServiceImpl();
+		int count = pservice.playerCount((player)->player.getRole().equals("Bowler") && player.getPrice()==2000000);
+		
+		System.out.println(count);
+	}
+}

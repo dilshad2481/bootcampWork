@@ -1,0 +1,73 @@
+package com.lwl.cj.day16;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class ListExample {
+	public static void main(String[] args) {
+		
+		//Raw arraylist and raw list type 
+		//We didn't specify any type for it so it can take ANY type of elements
+		List<Integer> list = new ArrayList<Integer>();
+		for(int i = 1;i < 100;i++) {
+			list.add(i);
+		}
+		//System.out.println(list.stream());
+		System.out.println(list);
+		
+		System.out.println(list);
+		
+		//Add even numbers into evenList
+		List<Integer> evenList = new ArrayList<Integer>();
+		for(Integer ele:list) {
+			if(ele % 2 == 0) {
+				evenList.add(ele);
+			}
+		}
+		System.out.println(evenList);
+		
+		//Add All evenList elements into new List using shortcut addAll()
+		List<Integer> evenList2 = new ArrayList<Integer>();
+		evenList2.addAll(evenList);
+		System.out.println(evenList2);
+		
+		//Example 1: Integer Stream
+		//takes integers 1 to 9 and for each element it prints it out
+		//System.out::print => System.out
+		IntStream
+			.range(1, 10)
+			.forEach(System.out::print);
+		System.out.println();
+		
+		/**
+		 * Example 2: Integer Stream with skip
+		 * Create 1- 9 integers and skip first 5 and finally for each element
+		 * pass it to parameter x and print that parameter
+		 * **/
+		IntStream
+			.range(1,10)
+			.skip(5)
+			.forEach(x -> System.out.println(x));
+		System.out.println();
+		
+		/*
+		 * Integer Stream with sum 
+		 */
+		
+		int sum = IntStream
+			.range(1, 5)
+			.sum();
+		System.out.println(sum);
+		System.out.println();
+		
+		/*
+		 * 4. Stream.of, sorted and findFirst
+		 * 
+		 * */
+		System.out.println(Stream.of(1,2,3,4,5));
+	}
+}

@@ -1,0 +1,102 @@
+package com.lwl.cj.day18;
+
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
+class Student{
+	long id;
+	String name;
+	int score;
+	public Student(long id, String name, int score) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.score = score;
+	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", score=" + score + "]";
+	}
+	@Override
+	public int hashCode() {
+		System.out.println("HashCode method is invoked");
+		return Objects.hash(id, name, score);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		System.out.println("Equals method is invoked" + obj);
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		return id == other.id && Objects.equals(name, other.name) && score == other.score;
+	}
+	
+	
+	
+}
+
+public class SetManager {
+	public static void main(String[] args) {
+		Set<Integer> set = new HashSet<Integer>();
+		set.add(1001);
+		set.add(1002);
+		set.add(1003);
+		set.add(1004);
+		set.add(1005);
+		set.add(1006);
+		set.add(null);
+		set.add(null);
+		System.out.println(set);
+		
+//		for(Integer i:set) {
+//			System.out.println(i.hashCode());
+//		}
+		set.forEach(System.out::println);
+		
+		
+		//Student set
+		//Even though the values are same, set still
+		//added them. So we check hasCode for each]
+		
+		Set<Student> set1 = new HashSet<Student>();
+		set1.add(new Student(1001, "Krish",9));
+		set1.add(new Student(1002, "Manoj",9));
+		set1.add(new Student(1001, "Krish",9));
+		set1.add(new Student(1002, "Manoj",9));
+		set1.add(new Student(1003, "Sai",7));
+		System.out.println(set1.size());
+		
+		//Each hashcode is different 
+		//so how do we fix it? We want student be considered
+		// duplicate if id, score and name are same
+		//For that we must OVERRIDE hascode method for student class
+		//We also have to override equal method
+		for(Student s:set1) {
+			System.out.println(s.hashCode());
+		}
+	}
+	
+}

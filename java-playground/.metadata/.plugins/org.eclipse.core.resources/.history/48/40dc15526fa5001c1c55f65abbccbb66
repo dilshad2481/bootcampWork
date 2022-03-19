@@ -1,0 +1,60 @@
+package com.lwl.cj.day17;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamExample {
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		list.add(1);
+		list.add(3);
+		list.add(5);
+		list.add(4);
+		list.add(6);
+		list.add(9);
+		list.add(2);
+		
+		//Get the numbers which are divisible by 2 but not with 4
+		List<Integer> flist = new ArrayList<Integer>();
+		for(Integer i: list) {
+			if(i % 2 == 0 && i % 4 != 0) {
+				flist.add(i);
+			}
+		}
+		System.out.println(flist);		
+		
+		//With Streams = filter = only pass if condition is met
+		System.out.println(list.stream()
+				.filter(e -> e % 2 == 0)
+				.collect(Collectors.toList()));
+		
+		//Using map = apply change to each element
+		List<Integer> dlist = new ArrayList<Integer>();
+		for(Integer ele:list) {
+			ele *= ele;
+			dlist.add(ele);
+		}
+		dlist = list.stream()
+					.map(e -> e*e)
+					.collect(Collectors.toList());
+		System.out.println(dlist);
+		
+		List<String> namesList = new ArrayList<String>();
+		namesList.add("Charan");
+		namesList.add("Dhatri");
+		namesList.add("Tanvi");
+		namesList.add("Aadhaya");
+		namesList.add("Ramesh");
+		
+		List<Integer> lengthList = namesList.stream()
+									.map(x -> x.length())
+									.collect(Collectors.toList());
+		
+		//Get length of names start with A and length should be more than 5 characters
+		namesList.stream().filter(e->e.startsWith("A"))//Get names starting with A
+							.map(e -> e.length())		//Get length of names starting with A
+							.filter(e -> e >=5)			//Get names with length higher than 5
+							
+	}
+}

@@ -1,0 +1,71 @@
+package com.lwl.cj.day18;
+
+import java.util.HashSet;
+import java.util.Set;
+
+class Student{
+	long id;
+	String name;
+	int score;
+	public Student(long id, String name, int score) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.score = score;
+	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", score=" + score + "]";
+	}
+	
+}
+
+public class SetManager {
+	public static void main(String[] args) {
+		Set<Integer> set = new HashSet<Integer>();
+		set.add(1001);
+		set.add(1002);
+		set.add(1003);
+		set.add(1004);
+		set.add(1005);
+		set.add(1006);
+		set.add(null);
+		set.add(null);
+		System.out.println(set);
+		
+//		for(Integer i:set) {
+//			System.out.println(i.hashCode());
+//		}
+		set.forEach(System.out::println);
+		
+		
+		//Student set
+		Set<Student> set1 = new HashSet<Student>();
+		set1.add(new Student(1001, "Krish",9));
+		set1.add(new Student(1002, "Manoj",9));
+		set1.add(new Student(1001, "Krish",9));
+		set1.add(new Student(1002, "Manoj",9));
+		set1.add(new Student(1003, "Sai",7));
+		System.out.println(set1.size());
+		
+	}
+	
+}

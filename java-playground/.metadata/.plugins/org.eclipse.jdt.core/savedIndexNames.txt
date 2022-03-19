@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Users\dilshad\Documents\java-code\my work\java-playground\.metadata\.plugins\org.eclipse.jdt.core
+4139997210.index
+1818208131.index
+3956827688.index
+243123870.index
+587244346.index
+4054891831.index
+2915774131.index
+2090800510.index
+1748355492.index
+2486381928.index
+3840642646.index
+1177192122.index
+1865797976.index
+3232871139.index
+323669774.index
+2128991182.index
+4257052473.index
+4133780708.index
+2329654483.index
+3017478608.index

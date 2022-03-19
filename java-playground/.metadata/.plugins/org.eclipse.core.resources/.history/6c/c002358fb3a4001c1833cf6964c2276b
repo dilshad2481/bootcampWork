@@ -1,0 +1,10 @@
+package com.lwl.cj.day17;
+
+public class Employee {
+	private Long empno;
+	private String name;
+	private double salary;
+	private String dept;
+	
+	
+}
