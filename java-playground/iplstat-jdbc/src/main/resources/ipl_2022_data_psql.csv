@@ -1,0 +1,238 @@
+pid,name,role,price,country,team
+1,ShubmanGill,Batsman,80000000,India,GT
+2,SaiSudarshan,Batsman,2000000,India,GT
+3,AbhinavSadarangani,Batsman,26000000,India,GT
+4,JasonRoy,Batsman,20000000,England,GT
+5,DavidMiller,Batsman,30000000,South Africa,GT
+6,MatthewWade,WK-Batsman,24000000,Australia,GT
+7,WriddhimanSaha,WK-Batsman,19000000,India,GT
+8,RashidKhan,Bowler,150000000,Afghanistan,GT
+9,VarunAaron,Bowler,5000000,India,GT
+10,DarshanNalkande,Bowler,2000000,India,GT
+11,YashDayal,Bowler,32000000,India,GT
+12,PradeepSangwan,Bowler,2000000,India,GT
+13,AlzarriJoseph,Bowler,24000000,West Indies,GT
+14,RSaiKishore,Bowler,30000000,India,GT
+15,NoorAhmad,Bowler,3000000,Afghanistan,GT
+16,LockieFerguson,Bowler,100000000,New Zealand,GT
+17,MohammedShami,Bowler,62500000,India,GT
+18,HardikPandya,All-rounder,150000000,India,GT
+19,DominicDrakes,All-rounder,11000000,West Indies,GT
+20,VijayShankar,All-rounder,14000000,India,GT
+21,JayantYadav,All-rounder,17000000,India,GT
+22,GurkeeratSinghMann,All-rounder,5000000,India,GT
+23,RahulTewatia,All-rounder,90000000,India,GT
+24,MSDhoni,WK-Batsman,120000000,India,CSK
+25,RuturajGaikwad,Batsman,60000000,India,CSK
+26,RobinUthappa,Batsman,20000000,India,CSK
+27,AmbatiRayudu,WK-Batsman,67500000,India,CSK
+28,DevonConway,Batsman,10000000,New Zealand,CSK
+29,SubhranshuSenapati,Batsman,2000000,India,CSK
+30,HariNishaanth,Batsman,2000000,India,CSK
+31,NJagadeesan,WK-Batsman,2000000,India,CSK
+32,DeepakChahar,Bowler,140000000,India,CSK
+33,KMAsif,Bowler,2000000,India,CSK
+34,TusharDeshpande,Bowler,2000000,India,CSK
+35,MaheeshTheekshana,Bowler,7000000,Sri Lanka,CSK
+36,SimranjeetSingh,Bowler,2000000,India,CSK
+37,AdamMilne,Bowler,19000000,New Zealand,CSK
+38,MukeshChoudhary,Bowler,2000000,India,CSK
+39,PrashantSolanki,Bowler,12000000,India,CSK
+40,MitchellSantner,Bowler,19000000,New Zealand,CSK
+41,RajvardhanHangargekar,Bowler,15000000,India,CSK
+42,RavindraJadeja,All-rounder,160000000,India,CSK
+43,MoeenAli,All-rounder,80000000,England,CSK
+44,DwayneBravo,All-rounder,44000000,West Indies,CSK
+45,ShivamDube,All-rounder,40000000,India,CSK
+46,DwainePretorius,All-rounder,5000000,South Africa,CSK
+47,BhagathVarma,All-rounder,2000000,India,CSK
+48,ChrisJordan,All-rounder,36000000,England,CSK
+49,RishabhPanty,WK-Batsman,160000000,India,DC
+50,PrithviShaw,Batsman,75000000,India,DC
+51,DavidWarner,Batsman,62500000,Australia,DC
+52,AshwinHebbar,Batsman,2000000,India,DC
+53,SarfarazKhan,Batsman,2000000,India,DC
+54,KSBharat,WK-Batsman,20000000,India,DC
+55,YashDhull,Batsman,5000000,India,DC
+56,MandeepSingh,Batsman,11000000,India,DC
+57,RovmanPowell,Batsman,28000000,West Indies,DC
+58,TimSeifert,WK-Batsman,5000000,New Zealand,DC
+59,AnrichNortje,Bowler,65000000,South Africa,DC
+60,ShardulThakur,Bowler,107500000,India,DC
+61,KamleshNagarkoti,Bowler,11000000,India,DC
+62,MustafizurRahman,Bowler,20000000,Bangladesh,DC
+63,LungiNgidi,Bowler,5000000,South Africa,DC
+64,KhaleelAhmed,Bowler,52500000,India,DC
+65,ChetanSakariya,Bowler,42000000,India,DC
+66,PraveenDubey,Bowler,5000000,India,DC
+67,KuldeepYadav,Bowler,20000000,India,DC
+68,AxarPatel,All-rounder,90000000,India,DC
+69,MitchellMarsh,All-rounder,65000000,Australia,DC
+70,LalitYadav,All-rounder,6500000,India,DC
+71,RipalPatel,All-rounder,2000000,India,DC
+72,VickyOstwal,All-rounder,2000000,India,DC
+73,ShreyasIyer,Batsman,122500000,India,KKR
+74,NitishRana,Batsman,80000000,India,KKR
+75,AjinkyaRahane,Batsman,10000000,India,KKR
+76,RinkuSingh,Batsman,5500000,India,KKR
+77,AbhijeetTomar,Batsman,4000000,India,KKR
+78,PrathamSingh,Batsman,2000000,India,KKR
+79,AlexHales,Batsman,15000000,England,KKR
+80,RameshKumar,Batsman,2000000,India,KKR
+81,SheldonJackson,WK-Batsman,6000000,India,KKR
+82,SamBillings,WK-Batsman,20000000,England,KKR
+83,BabaIndrajith,Batsman,2000000,India,KKR
+84,VarunChakravarty,Bowler,80000000,India,KKR
+85,PatCummins,Bowler,72500000,Australia,KKR
+86,RasikhDar,Bowler,2000000,India,KKR
+87,AshokSharma,Bowler,5500000,India,KKR
+88,TimSouthee,Bowler,15000000,New Zealand,KKR
+89,UmeshYadav,Bowler,20000000,India,KKR
+90,ChamikaKarunaratne,Bowler,5000000,Sri Lanka,KKR
+91,ShivamMavi,Bowler,72500000,India,KKR
+92,AndreRussell,All-rounder,120000000,West Indies,KKR
+93,VenkateshIyer,All-rounder,80000000,India,KKR
+94,SunilNarine,All-rounder,60000000,West Indies,KKR
+95,AnukulRoy,All-rounder,2000000,India,KKR
+96,NitishRana,All-rounder,80000000,India,KKR
+97,MohammadNabi,All-rounder,10000000,Afghanistan,KKR
+98,MananVohra,Batsman,2000000,India,LSG
+99,EvinLewis,Batsman,20000000,West Indies,LSG
+100,ManishPandey,Batsman,46000000,India,LSG
+101,KLRahul,WK-Batsman,170000000,India,LSG
+102,QuintondeKock,WK-Batsman,67500000,South Africa,LSG
+103,RaviBishnoi,Bowler,40000000,India,LSG
+104,DushmanthaChameera,Bowler,20000000,Sri Lanka,LSG
+105,ShahbazNadeem,Bowler,5000000,India,LSG
+106,MohsinKhan,Bowler,2000000,India,LSG
+107,MayankYadav,Bowler,2000000,India,LSG
+108,AnkitRajpoot,Bowler,5000000,India,LSG
+109,AveshKhan,Bowler,100000000,India,LSG
+110,MarkWood,Bowler,75000000,England,LSG
+111,MarcusStoinis,All-rounder,92000000,Australia,LSG
+112,KyleMayers,All-rounder,5000000,West Indies,LSG
+113,KaranSharma,All-rounder,2000000,India,LSG
+114,KGowtham,All-rounder,9000000,India,LSG
+115,AyushBadoni,All-rounder,2000000,India,LSG
+116,DeepakHooda,All-rounder,57500000,India,LSG
+117,KrunalPandya,All-rounder,82500000,India,LSG
+118,JasonHolder,All-rounder,87500000,West Indies,LSG
+119,RohitSharma,Batsman,160000000,India,MI
+120,SuryakumarYadav,Batsman,80000000,India,MI
+121,TilakVarma,Batsman,17000000,India,MI
+122,RamandeepSingh,Batsman,2000000,India,MI
+123,RahulBuddhi,Batsman,2000000,India,MI
+124,AnmolpreetSingh,Batsman,2000000,India,MI
+125,DewaldBrevis,Batsman,30000000,India,MI
+126,AryanJuyal,WK-Batsman,2000000,India,MI
+127,IshanKishan,WK-Batsman,152500000,India,MI
+128,JaspritBumrah,Bowler,120000000,India,MI
+129,MohammadArshadKhan,Bowler,2000000,India,MI
+130,JaydevUnadkat,Bowler,13000000,India,MI
+131,MayankMarkande,Bowler,6500000,India,MI
+132,JofraArcher,Bowler,80000000,England,MI
+133,TymalMills,Bowler,15000000,England,MI
+134,RileyMeredith,Bowler,10000000,Australia,MI
+135,MuruganAshwin,Bowler,16000000,India,MI
+136,BasilThampi,Bowler,3000000,India,MI
+137,KieronPollard,All-rounder,60000000,West Indies,MI
+138,HrithikShokeen,All-rounder,2000000,India,MI
+139,ArjunTendulkar,All-rounder,3000000,India,MI
+140,SanjayYadav,All-rounder,5000000,India,MI
+141,DanielSams,All-rounder,26000000,Australia,MI
+142,TimDavid,All-rounder,82500000,Singapore,MI
+143,FabianAllen,All-rounder,7500000,West Indies,MI
+144,MayankAgarwal,Batsman,120000000,India,PBKS
+145,PrerakMankad,Batsman,2000000,India,PBKS
+146,BhanukaRajapaksa,Batsman,5000000,Sri Lanka,PBKS
+147,ShahrukhKhan,Batsman,90000000,India,PBKS
+148,ShikharDhawan,Batsman,82500000,India,PBKS
+149,PrabhsimranSingh,WK-Batsman,6000000,India,PBKS
+150,JiteshSharma,WK-Batsman,2000000,India,PBKS
+151,JonnyBairstow,WK-Batsman,67500000,England,PBKS
+152,ArshdeepSingh,Bowler,40000000,India,PBKS
+153,WrittickChatterjee,Bowler,2000000,India,PBKS
+154,OdeanSmith,Bowler,60000000,West Indies,PBKS
+155,SandeepSharma,Bowler,5000000,India,PBKS
+156,RajBawa,Bowler,20000000,India,PBKS
+157,NathanEllis,Bowler,7500000,Australia,PBKS
+158,VaibhavArora,Bowler,20000000,India,PBKS
+159,IshanPorel,Bowler,2500000,India,PBKS
+160,HarpreetBrar,Bowler,38000000,India,PBKS
+161,RahulChahar,Bowler,52500000,India,PBKS
+162,KagisoRabada,Bowler,92500000,South Africa,PBKS
+163,BennyHowell,All-rounder,4000000,England,PBKS
+164,BaltejSingh,All-rounder,2000000,India,PBKS
+165,AnshPatel,All-rounder,2000000,India,PBKS
+166,LiamLivingstone,All-rounder,115000000,England,PBKS
+167,RishiDhawan,All-rounder,5500000,India,PBKS
+168,AtharvaTaide,All-rounder,2000000,India,PBKS
+169,YashasviJaiswal,Batsman,40000000,India,RR
+170,KarunNair,Batsman,14000000,India,RR
+171,RassievanderDussen,Batsman,10000000,South Africa,RR
+172,DevduttPadikkal,Batsman,77500000,India,RR
+173,ShimronHetmyer,Batsman,85000000,West Indies,RR
+174,SanjuSamson,WK-Batsman,140000000,India,RR
+175,JosButtler,WK-Batsman,100000000,England,RR
+176,DhruvJurel,WK-Batsman,2000000,India,RR
+177,ShubhamGarhwal,Bowler,2000000,India,RR
+178,KuldipYadav,Bowler,2000000,India,RR
+179,NathanCoulterNile,Bowler,20000000,Australia,RR
+180,NavdeepSaini,Bowler,26000000,India,RR
+181,KuldeepSen,Bowler,2000000,India,RR
+182,ObedMcCoy,Bowler,7500000,West Indies,RR
+183,TejasBaroka,Bowler,2000000,India,RR
+184,KCKariappa,Bowler,3000000,India,RR
+185,YuzvendraChahal,Bowler,65000000,India,RR
+186,PrasidhKrishna,Bowler,100000000,India,RR
+187,TrentBoult,Bowler,80000000,New Zealand,RR
+188,AnunaySingh,All-rounder,2000000,India,RR
+189,JamesNeesham,All-rounder,15000000,New Zealand,RR
+190,DarylMitchell,All-rounder,7500000,New Zealand,RR
+191,RiyanParag,All-rounder,38000000,India,RR
+192,RavichandranAshwin,All-rounder,50000000,India,RR
+193,ViratKohli,Batsman,150000000,India,RCB
+194,SuyashPrabhudessai,Batsman,3000000,India,RCB
+195,FafduPlessis,Batsman,70000000,South Africa,RCB
+196,DineshKarthik,WK-Batsman,55000000,India,RCB
+197,AnujRawat,WK-Batsman,34000000,India,RCB
+198,FinnAllen,WK-Batsman,8000000,New Zealand,RCB
+199,LuvnithSisodia,WK-Batsman,2000000,India,RCB
+200,MohammedSiraj,Bowler,70000000,India,RCB
+201,KarnSharma,Bowler,5000000,India,RCB
+202,JasonBehrendorff,Bowler,7500000,Australia,RCB
+203,SiddarthKaul,Bowler,7500000,India,RCB
+204,ChamaMilind,Bowler,2500000,India,RCB
+205,JoshHazlewood,Bowler,77500000,Australia,RCB
+206,HarshalPatel,Bowler,107500000,India,RCB
+207,AkashDeep,Bowler,2000000,India,RCB
+208,GlennMaxwell,All-rounder,110000000,Australia,RCB
+209,DavidWilley,All-rounder,20000000,England,RCB
+210,MahipalLomror,All-rounder,9500000,India,RCB
+211,SherfaneRutherford,All-rounder,10000000,West Indies,RCB
+212,AneeshwarGautam,All-rounder,2000000,India,RCB
+213,ShahbazAhmed,All-rounder,24000000,India,RCB
+214,WaninduHasaranga,All-rounder,107500000,Sri Lanka,RCB
+215,KaneWilliamson,Batsman,140000000,New Zealand,SRH
+216,AidenMarkram,Batsman,26000000,South Africa,SRH
+217,ShashankSingh,Batsman,2000000,India,SRH
+218,RSamarth,Batsman,2000000,India,SRH
+219,RahulTripathi,Batsman,85000000,India,SRH
+220,PriyamGarg,Batsman,2000000,India,SRH
+221,GlennPhillips,WK-Batsman,15000000,New Zealand,SRH
+222,VishnuVinod,WK-Batsman,5000000,India,SRH
+223,NicholasPooran,WK-Batsman,107500000,West Indies,SRH
+224,UmranMalik,Bowler,40000000,India,SRH
+225,SaurabhDubey,Bowler,2000000,India,SRH
+226,RomarioShepherd,Bowler,77500000,West Indies,SRH
+227,FazalHaqFarooqi,Bowler,5000000,Afghanistan,SRH
+228,JSuchith,Bowler,2000000,India,SRH
+229,ShreyasGopal,Bowler,7500000,India,SRH
+230,KartikTyagi,Bowler,40000000,India,SRH
+231,TNatarajan,Bowler,40000000,India,SRH
+232,BhuvneshwarKumar,Bowler,42000000,India,SRH
+233,AbdulSamad,All-rounder,40000000,India,SRH
+234,MarcoJansen,All-rounder,42000000,South Africa,SRH
+235,SeanAbbott,All-rounder,24000000,Australia,SRH
+236,AbhishekSharma,All-rounder,65000000,India,SRH
+237,WashingtonSundar,All-rounder,87500000,India,SRH

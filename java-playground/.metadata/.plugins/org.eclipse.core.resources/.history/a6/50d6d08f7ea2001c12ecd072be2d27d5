@@ -1,5 +1,0 @@
-package com.lwl.cj.day14;
-
-public @interface override {
-
-}
