@@ -1,0 +1,32 @@
+package com.careerit.cbook;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.careerit.ipl.CsvReaderUtil;
+import com.careerit.ipl.Player;
+
+@WebServlet("/ipl")
+public class IplStatServlet extends HttpServlet{
+	private List<String> teamName;
+	private List<Player> players;
+	@Override
+	public void init() throws ServletException {
+		players = CsvReaderUtil.obj.loadPlayers();
+		players.stream().map(player -> player.getTeam()).collect(Collectors.toSet());
+	}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println(CsvReaderUtil.obj.loadPlayers());
+	}
+}
+//200 = successful
+//400 = Not found
+//500 = Server side error = something wrong with code, maybe some parmeters
