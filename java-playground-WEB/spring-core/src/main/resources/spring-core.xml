@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+         
+     <!--   <bean id="greetings" class="com.careerit.sl.core.Greetings">
+       		<property name="message" value="Retarded stuff right here..."></property>
+       </bean> -->
+       
+       
+       
+       <bean id="connectionDetails" class="com.careerit.sl.core.ConnectionDetails">
+       		<property name="url" value="jdbc:postgres://localhost:5482/lwl_db"></property>
+       		<property name="username" value="postgres"></property>
+       		<property name="password" value="dbuser"></property>
+       </bean>
+</beans>

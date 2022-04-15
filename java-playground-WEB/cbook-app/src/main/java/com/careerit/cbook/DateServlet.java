@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/showdate")
+//@WebServlet("/showdate")
 public class DateServlet extends HttpServlet{//extends GenericServlet //implements Servlet {
 //You can either implement Servlet interface or extend GenericServlet which itself implements Servlet interface
 //Since Servlet mainly required http requests you could just use HttpServlet which extends the genericServlet

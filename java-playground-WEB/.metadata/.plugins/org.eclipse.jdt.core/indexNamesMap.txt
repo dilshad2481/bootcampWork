@@ -1,3 +1,1 @@
 INDEX VERSION 1.131
-file:/C:/Users/dilshad/Documents/java-code/my%20work%20WEB/java-playground-WEB/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index

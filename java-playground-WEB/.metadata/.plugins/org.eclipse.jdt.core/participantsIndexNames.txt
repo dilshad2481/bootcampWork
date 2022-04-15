@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\Users\dilshad\Documents\java-code\my work WEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2213518533.index
 \cbook-app\src\main\java
+C:\Users\dilshad\Documents\java-code\my work\java-playground-WEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2453500344.index
+\ipstat-web-app\src\main\java

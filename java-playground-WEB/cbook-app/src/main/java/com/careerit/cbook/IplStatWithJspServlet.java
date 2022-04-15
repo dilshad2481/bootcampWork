@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.careerit.ipl.CsvReaderUtil;
 import com.careerit.ipl.Player;
 
-@WebServlet("/iplstat")
+//@WebServlet("iplstat")
 public class IplStatWithJspServlet extends HttpServlet {
 	private List<String> teamNames = new ArrayList<String>();
 	private List<Player> players;
